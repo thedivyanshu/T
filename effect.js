@@ -171,7 +171,7 @@ $('document').ready(function(){
 		});
 		
 		var i;
-
+		
 		function msgLoop (i) {
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
